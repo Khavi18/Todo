@@ -20,13 +20,19 @@ struct AddToDoView: View {
     
     let priorities = ["High", "Normal", " Low"]
     
+    @ObservedObject var theme = ThemeSettings.shared
+    var themes: [Theme] = themeData
+    
     //: MARK: - Body
     var body: some View {
         NavigationView {
             VStack {
-                Form {
+                VStack(alignment: .leading, spacing: 20) {
                     TextField("Todo", text: $name)
-                    
+                        .padding()
+                        .background(Color(UIColor.tertiarySystemFill))
+                        .cornerRadius(9)
+                        .font(.system(size: 24, weight: .bold, design: .default))
                     Picker("Priority", selection: $priority) {
                         ForEach(priorities, id: \.self) {
                             Text($0)
@@ -42,7 +48,6 @@ struct AddToDoView: View {
                             
                             do {
                                 try self.managedObjectContext.save()
-                                print("New to do \(todo.name ?? "") \(todo.priority ?? "")")
                             } catch {
                                 print(error)
                             }
@@ -55,10 +60,18 @@ struct AddToDoView: View {
                         self.presentationMode.wrappedValue.dismiss()
                     } label: {
                         Text("Save")
+                            .font(.system(size: 24, weight: .bold, design: .default))
+                            .padding()
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                            .background(themes[self.theme.themeSettings].themeColor)
+                            .cornerRadius(9)
+                            .foregroundColor(.white)
                     } //: Save Button
-                    
-                }//: Form
-            }//: VStack
+                } //: VStack
+                .padding(.horizontal)
+                .padding(.vertical, 30)
+                Spacer()
+            } //: VStack
             .navigationTitle("New Todo")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(content: {
@@ -72,7 +85,13 @@ struct AddToDoView: View {
                 Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
             }
         } //: NavigationView
+        .tint(themes[self.theme.themeSettings].themeColor)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
+    
+    //MARK: - Functions
+    
+    
 }
 
 #Preview {

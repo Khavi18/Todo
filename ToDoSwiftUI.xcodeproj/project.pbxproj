@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4976241A2C421D4000DAB752 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497624192C421D4000DAB752 /* EmptyListView.swift */; };
+		4976241C2C4226DA00DAB752 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976241B2C4226DA00DAB752 /* SettingsView.swift */; };
+		4976241E2C42291100DAB752 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976241D2C42291100DAB752 /* FormRowStaticView.swift */; };
+		497624202C422AC000DAB752 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976241F2C422AC000DAB752 /* FormRowLinkView.swift */; };
+		4976242B2C42558000DAB752 /* Blue Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624222C42557F00DAB752 /* Blue Dark.png */; };
+		4976242C2C42558000DAB752 /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624232C42558000DAB752 /* Blue Light.png */; };
+		4976242D2C42558000DAB752 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624242C42558000DAB752 /* Blue.png */; };
+		4976242E2C42558000DAB752 /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624252C42558000DAB752 /* Green Dark.png */; };
+		4976242F2C42558000DAB752 /* Pink Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624262C42558000DAB752 /* Pink Dark.png */; };
+		497624302C42558000DAB752 /* Pink Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624272C42558000DAB752 /* Pink Light.png */; };
+		497624312C42558000DAB752 /* Green Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624282C42558000DAB752 /* Green Light.png */; };
+		497624322C42558000DAB752 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 497624292C42558000DAB752 /* Green.png */; };
+		497624332C42558000DAB752 /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4976242A2C42558000DAB752 /* Pink.png */; };
+		497624362C42792400DAB752 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497624352C42792400DAB752 /* ThemeModel.swift */; };
+		497624382C42796700DAB752 /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497624372C42796700DAB752 /* ThemeData.swift */; };
+		4976243A2C4279B200DAB752 /* ThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497624392C4279B200DAB752 /* ThemeSettings.swift */; };
 		49A845CA2C414F7700F3BBFB /* ToDoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A845C92C414F7700F3BBFB /* ToDoSwiftUIApp.swift */; };
 		49A845CC2C414F7700F3BBFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A845CB2C414F7700F3BBFB /* ContentView.swift */; };
 		49A845CE2C414F7800F3BBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A845CD2C414F7800F3BBFB /* Assets.xcassets */; };
@@ -17,6 +33,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497624182C421CAC00DAB752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		497624192C421D4000DAB752 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		4976241B2C4226DA00DAB752 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4976241D2C42291100DAB752 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		4976241F2C422AC000DAB752 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		497624222C42557F00DAB752 /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dark.png"; sourceTree = "<group>"; };
+		497624232C42558000DAB752 /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
+		497624242C42558000DAB752 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		497624252C42558000DAB752 /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
+		497624262C42558000DAB752 /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Dark.png"; sourceTree = "<group>"; };
+		497624272C42558000DAB752 /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Light.png"; sourceTree = "<group>"; };
+		497624282C42558000DAB752 /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Light.png"; sourceTree = "<group>"; };
+		497624292C42558000DAB752 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		4976242A2C42558000DAB752 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		497624352C42792400DAB752 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		497624372C42796700DAB752 /* ThemeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		497624392C4279B200DAB752 /* ThemeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettings.swift; sourceTree = "<group>"; };
 		49A845C62C414F7700F3BBFB /* ToDoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A845C92C414F7700F3BBFB /* ToDoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoSwiftUIApp.swift; sourceTree = "<group>"; };
 		49A845CB2C414F7700F3BBFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +71,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		497624212C42554600DAB752 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				497624222C42557F00DAB752 /* Blue Dark.png */,
+				497624232C42558000DAB752 /* Blue Light.png */,
+				497624242C42558000DAB752 /* Blue.png */,
+				497624252C42558000DAB752 /* Green Dark.png */,
+				497624282C42558000DAB752 /* Green Light.png */,
+				497624292C42558000DAB752 /* Green.png */,
+				497624262C42558000DAB752 /* Pink Dark.png */,
+				497624272C42558000DAB752 /* Pink Light.png */,
+				4976242A2C42558000DAB752 /* Pink.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		497624342C42791300DAB752 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				497624352C42792400DAB752 /* ThemeModel.swift */,
+				497624372C42796700DAB752 /* ThemeData.swift */,
+				497624392C4279B200DAB752 /* ThemeSettings.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		49A845BD2C414F7700F3BBFB = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +116,9 @@
 		49A845C82C414F7700F3BBFB /* ToDoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				497624342C42791300DAB752 /* Theme */,
+				497624212C42554600DAB752 /* Icons */,
+				497624182C421CAC00DAB752 /* Info.plist */,
 				49A845C92C414F7700F3BBFB /* ToDoSwiftUIApp.swift */,
 				49A845DC2C414F9300F3BBFB /* View */,
 				49A845CD2C414F7800F3BBFB /* Assets.xcassets */,
@@ -80,6 +142,10 @@
 			children = (
 				49A845CB2C414F7700F3BBFB /* ContentView.swift */,
 				49A845DD2C414FA800F3BBFB /* AddToDoView.swift */,
+				497624192C421D4000DAB752 /* EmptyListView.swift */,
+				4976241B2C4226DA00DAB752 /* SettingsView.swift */,
+				4976241D2C42291100DAB752 /* FormRowStaticView.swift */,
+				4976241F2C422AC000DAB752 /* FormRowLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,8 +208,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497624312C42558000DAB752 /* Green Light.png in Resources */,
+				4976242E2C42558000DAB752 /* Green Dark.png in Resources */,
+				4976242F2C42558000DAB752 /* Pink Dark.png in Resources */,
+				4976242B2C42558000DAB752 /* Blue Dark.png in Resources */,
+				497624302C42558000DAB752 /* Pink Light.png in Resources */,
+				497624332C42558000DAB752 /* Pink.png in Resources */,
+				4976242C2C42558000DAB752 /* Blue Light.png in Resources */,
+				4976242D2C42558000DAB752 /* Blue.png in Resources */,
 				49A845D12C414F7800F3BBFB /* Preview Assets.xcassets in Resources */,
 				49A845CE2C414F7800F3BBFB /* Assets.xcassets in Resources */,
+				497624322C42558000DAB752 /* Green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4976241C2C4226DA00DAB752 /* SettingsView.swift in Sources */,
+				4976241E2C42291100DAB752 /* FormRowStaticView.swift in Sources */,
+				497624202C422AC000DAB752 /* FormRowLinkView.swift in Sources */,
+				497624382C42796700DAB752 /* ThemeData.swift in Sources */,
 				49A845D32C414F7800F3BBFB /* Persistence.swift in Sources */,
 				49A845D62C414F7800F3BBFB /* ToDoSwiftUI.xcdatamodeld in Sources */,
+				4976243A2C4279B200DAB752 /* ThemeSettings.swift in Sources */,
+				4976241A2C421D4000DAB752 /* EmptyListView.swift in Sources */,
 				49A845CC2C414F7700F3BBFB /* ContentView.swift in Sources */,
+				497624362C42792400DAB752 /* ThemeModel.swift in Sources */,
 				49A845CA2C414F7700F3BBFB /* ToDoSwiftUIApp.swift in Sources */,
 				49A845DE2C414FA800F3BBFB /* AddToDoView.swift in Sources */,
 			);
@@ -295,11 +377,10 @@
 				DEVELOPMENT_TEAM = 8X338Z9W2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,11 +405,10 @@
 				DEVELOPMENT_TEAM = 8X338Z9W2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
